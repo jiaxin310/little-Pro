@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181818 !important;
+}
+
+/* 头部 */
+header {
+  width: 100%;
+  height: 90px;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  position: fixed;
+  background: url(../img/head-bg.jpeg) center top no-repeat;
+  overflow: hidden;
+}
+
+.navbar button:hover {
+  background-color: white;
+  color: red;
+}
+
+.container:first-of-type {
+  height: 90px;
+}
+
+.container:first-of-type .row {
+  height: 90px;
+}
+
+.navbar:first-of-type>a {
+  display: block;
+  height: 78px;
+  width: 156px;
+  position: absolute;
+  top: 0;
+  left: -22px;
+}
+
+.navbar:first-of-type>.navbar-collapse .navbar-nav {
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.navbar:first-of-type>.navbar-collapse li {
+  width: 128px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.navbar:first-of-type>.navbar-collapse li a {
+  color: #dedede;
+  font-size: 16px;
+}
+
+#collapsibleNavId {
+  margin-bottom: 24px;
+}
+
+/* 巨幕 */
+.jumbotron {
+  margin-top: 70px;
+  padding: 0;
+}
+
+.jumbotron .display-4 {
+  margin-top: 200px;
+  width: 527px;
+  height: 94px;
+  background: url(../img/jumu-title.jpeg) no-repeat;
+}
+
+.jumbotron .btn {
+  margin-top: 50px;
+  width: 237px;
+  height: 64px;
+  background: url(../img/jumu-stmdl.jpeg) no-repeat;
+  border: none;
+  margin-left: 200px;
+}
+
+.jumbotron .btn:hover {
+  background: url(../img/jumu-stmdl.jpeg) no-repeat;
+  background-position-y: -80px;
+}
+
+.jumbotron-box {
+  position: relative;
+  height: 1300px;
+  width: 100%;
+}
+
+.jumbotron-box .container-fluid {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.jumbotron-video {
+  position: absolute;
+  top: -120px;
+  width: 100%;
+}
+
+.jumbotron {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  background: none;
+}
+
+.display-4 {
+  margin-left: 200px;
+}
+
+/* jumunews */
+.card-deck {
+  padding-left: 120px;
+  padding-right: 120px;
+  height: 260px;
+  width: 100%;
+}
+
+.card-deck .card {
+  width: 365px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  margin: 0 30px;
+  height: 236px;
+}
+
+.card-title {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  color: white;
+  width: 68px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #333190;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 247px;
+  width: 100%;
+  height: 594px;
+  background: #181818 url(../img/jumu-news-bg.jpeg) no-repeat center top;
+}
+
+.news-title {
+  height: 62px;
+  margin-bottom: 52px;
+  background: url(../img/jumu-news.jpeg) no-repeat center top;
+}
+
+.card-body {
+  padding: 0;
+  min-height: 0;
+}
+
+.card-hide {
+  height: 243px;
+  width: 100%;
+  position: absolute;
+  background: url(../img/newsmask.jpeg);
+  left: 0px;
+  top: 20px;
+  opacity: 0;
+  transition-property: opacity, top;
+  transition-duration: 0.5s;
+}
+
+.card-hide .card-body {
+  width: 100%;
+  height: 100%;
+  background: url(../img/newsmask.jpeg);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /* opacity: 0; */
+
+  transition-property: opacity, top;
+  transition-duration: 0.5s;
+
+}
+
+.card-hide .info {
+  position: absolute;
+  color: white;
+  top: 125px;
+  left: 130px;
+}
+
+.card-hide .info h4 {
+  color: #dedede;
+  font-size: 18px;
+}
+
+.card-hide .info button {
+  background-color: white;
+  color: #353488;
+  width: 98px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 23px;
+}
+
+.card:hover .card-hide {
+  opacity: 1;
+  top: 0;
+}
+
+/* 中间部分 */
+.middle {
+  height: 1694px;
+  background: url(../img/middlebg.jpeg)no-repeat center top;
+  color: #b3b3b3;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title-group h4 {
+  height: 64px;
+  margin-bottom: 15px;
+  font-size: 0px;
+}
+
+.title-group p {
+  line-height: 150%;
+  margin-bottom: 23px;
+  min-height: 42px;
+  letter-spacing: 1px;
+}
+
+/* title-1 */
+.title-group:first-of-type>h4 {
+  background: url(../img/middle-title.jpeg) no-repeat center;
+  color: white;
+  margin-top: 30px;
+}
+
+.title-group a {
+  display: inline-block;
+  width: 171px;
+  height: 41px;
+  line-height: 41px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  background-image: url(../img/middle-a.jpeg);
+}
+
+.title-group a:hover {
+  text-decoration: none;
+  background-image: url(../img/middle-a.jpeg);
+  background-position-y: -50px;
+}
+
+/* 地图 */
+.map-box {
+  width: 1188px;
+  height: 558px;
+  padding-top: 19px;
+  margin: 20px auto;
+  background-image: url(../img/middle-mapbg.jpeg);
+}
+
+.map-box .map {
+  width: 1150px;
+  height: 520px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* title-2 */
+.title-2 {
+  margin-top: 680px;
+}
+
+.title-2>h4 {
+  background: url(../img/middle-title-2.jpeg) no-repeat center;
+}
+
+/* main轮播图 */
+main {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.Row0,
+.Row2,
+.Row1,
+.Row3,
+.Row4 {
+  transition-timing-function: linear;
+  animation-timing-function: linear;
+  height: 80px;
+  display: flex;
+  position: relative;
+}
+
+.Row1,
+.Row3 {
+  justify-content: flex-end;
+}
+
+.wraper-contener {
+  flex-wrap: wrap;
+}
+
+.icon-2 {
+  background: url(../img/icon-2.jpeg);
+}
+
+.icon-1 {
+  background: url(../img/icon-1.jpeg);
+}
+
+.icon-0 {
+  background: url(../img/icon-0.jpeg);
+}
+
+.hero-icon {
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.hero-name {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #b3b3b3;
+  float: left;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+/* tour-match */
+.tour-match {
+  background: url(../img/tour-match-bg.jpeg) no-repeat center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #b3b3b3;
+  font-size: 14px;
+  height: 941px;
+  margin: 140px 0;
+}
+
+.tour-match .title-group h4 {
+  background: url(../img/tour-match.jpeg) no-repeat center;
+  height: 78px;
+}
+
+.tour-match .title-group h4+p {
+  margin-top: 5px;
+}
+
+.imgs {
+  background: url(../img/tour-match-imgs.jpeg);
+  width: 1190px;
+  height: 335px;
+  margin: 150px auto 0;
+}
+
+.tour-match .title-2 h4 {
+  background: url(../img/join-battle.jpeg) no-repeat center;
+  height: 78px;
+  margin-top: 144px;
+}
+
+.tour-match .title-2 h4+a {
+  background: url(../img/jumu-stmdl.jpeg);
+  display: block;
+  width: 237px;
+  height: 64px;
+  font-size: 0;
+  margin: 17px auto 0;
+}
+
+.tour-match .title-2 {
+  margin-top: 0;
+}
+
+.tour-match .title-2 h4+a:hover {
+  background: url(../img/jumu-stmdl.jpeg);
+  background-position-y: -80px;
+}
+
+/* bottom */
+.share {
+  width: 1078px;
+  height: 125px;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  margin-left: -519px;
+}
+
+.share ul {
+  width: 1078px;
+  margin: 0 auto;
+  padding: 42px px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.share ul a {
+  display: block;
+  height: 39px;
+  width: 104px;
+  position: relative;
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-image: url(../img/bottom-spirit-icon.jpeg);
+}
+
+.share ul li:nth-of-type(2) a {
+  background-position: -143px 0px;
+  height: 40px;
+}
+
+.share ul li:nth-of-type(3) a {
+  background-position: -301px -2px;
+  height: 40px;
+}
+
+.share ul li:nth-of-type(4) a {
+  background-position: -527px -2px;
+}
+
+.share ul li:nth-of-type(5) a {
+  background-position: -654px -2px;
+}
+
+.share ul li:nth-of-type(6) a {
+  width: 114px;
+  background-position: -778px -2px;
+}
+
+.share ul li:nth-of-type(6) a:hover {
+  background-position-y: -65px !important
+}
+
+.share ul li:nth-of-type(7) a {
+  background-position: right -44px !important;
+  background-repeat: no-repeat;
+  width: 182px;
+  height: 30px;
+}
+
+/* footer */
+footer {
+  min-height: 180px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  z-index: 1;
+  font-size: 12px;
+  color: #959595;
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.cert-container a {
+  color: #888;
+}
+
+.swiper-slide {
+  background-position: center !important;
+  background-size: cover !important;
+}

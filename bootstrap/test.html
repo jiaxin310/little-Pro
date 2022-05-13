@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="layui-v2.6.8/layui/css/layui.css"
+      media="all"
+    />
+    <script src="layui-v2.6.8/layui/layui.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      .swiper-container1 {
+        /* width: 162px !important; */
+        height: 81px;
+        overflow: hidden;
+      }
+      .swiper-container1 img {
+        width: 162px;
+        height: 81px;
+      }
+      /* .swiper-container2 {
+        width: 100%;
+        height: 50%;
+      } */
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 162px !important;
+        margin-right: 5px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-wrapper {
+        transition-timing-function: linear !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="swiper-container1">
+      <div class="swiper-wrapper">
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_enigma.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_batrider.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_sand_king.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_tinker.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_abaddon.png"
+            alt=""
+          />
+        </a>
+        <a class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_kunkka.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+    <div class="swiper-container1" dir="rtl">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_enigma.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_batrider.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_sand_king.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_tinker.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_abaddon.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_kunkka.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_enigma.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_batrider.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_sand_king.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_tinker.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_abaddon.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_kunkka.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container1" dir="rtl">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_enigma.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_batrider.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_sand_king.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_tinker.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_juggernaut.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_abaddon.png"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://img.dota2.com.cn/dota2static/herostatic/index/npc_dota_hero_kunkka.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+      // layer.msg('您还没有登录，是否登录', {
+      //   icon: 7,
+      //   time: 0, //time取0则不关闭
+      //   btn: ['确定', '取消'],
+      //   yes: function () {
+      //     location.href = 'login.html';
+      //   },
+      // });
+      let heroListUrl =
+        'https://www.dota2.com.cn/datafeed/heroList?task=herolist';
+      $.get(heroListUrl).then(function (res) {
+        if (res.status === 'success') {
+          // console.log(res.result.heroes);
+          // console.log(res.result.heroes[0].index_img);
+          var heroes = res.result.heroes;
+          for (var i = 0; i < 5; i++) {
+            if (i == 0) {
+              appendHeroes(heroes.splice(0, 25), i);
+            } else {
+              appendHeroes(heroes.splice(0, 24), i);
+            }
+          }
+          // let imgArr = heroes.map((v) => v.index_img);
+          // console.log(imgArr);
+          function appendHeroes(arr, i) {
+            // console.log(arr);
+            // arr.forEach((obj) => {
+            //   // console.log(obj.index_img);
+            // });
+            let length = arr.length;
+            let heroArr = arr.map(
+              (v, i) => `
+            <a
+            class="swiper-slide swiper-slide-active herobg"
+            role="group"
+            style='width: 162px; margin-right: 6px;box-shadow: 1px 1px 4px black; height: 81px;background:url(${v.index_img})'
+            >
+            <div class="heroContainer">
+                <span class="icon-${v.primary_attr} hero-icon"></span>
+                <p class="hero-name">${v.name_loc}</p>
+              </div>
+            </a>
+            `
+            );
+            // console.log(heroArr.join(''));
+            $('.Row' + i).html(heroArr.join(''));
+          }
+        }
+      });
+
+      var mySwiper1 = new Swiper('.swiper-container1', {
+        loop: true,
+        speed: 5000, //匀速时间
+        autoplay: {
+          delay: 0,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>

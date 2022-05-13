@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 150px;
+  max-height: 150px;
+  background-color: #151D20;
+  background: url(../img/products/header-bg.jpg);
+  background-repeat: repeat-x;
+  background-position: top center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+header a {
+  width: 120px;
+  height: 30px;
+  top: 120px;
+  left: 655px;
+  border: none;
+  z-index: 10;
+}
+
+main {
+  background-color: #151D20;
+}
+
+main .mainbox {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main .mainbox .maincontent-right {
+  width: 790px;
+  float: left;
+  min-height: 1px;
+  overflow: hidden;
+}
+main .mainbox .maincontent-right .page {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+main .mainbox .maincontent-right .page button {
+  color: #2953A6;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  height: 50px;
+  margin-left: 20px;
+}
+main .mainbox .maincontent-right ul li {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+  background: #fff;
+  text-align: center;
+  margin: 20px 1%;
+}
+main .mainbox .maincontent-right ul li p {
+  margin: 10px 0;
+}
+main .mainbox .maincontent-right ul li .pname {
+  width: 50%;
+  margin-left: calc(41% - 62.4px);
+}
+main .mainbox .maincontent-right ul li a {
+  color: #666;
+}
+main .mainbox .maincontent-right ul li .price {
+  color: #c00;
+}
+main .mainbox .maincontent-right ul {
+  overflow: hidden;
+}
+main .mainbox .maincontent-left {
+  width: 190px;
+  float: left;
+}
+main .mainbox .maincontent-left .mtitle {
+  margin-left: 20px;
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+}
+main .mainbox .leftbody {
+  width: 190px;
+}
+main .mainbox .leftbody ul li {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #DDD;
+  background: #FCFCF9;
+  overflow: hidden;
+  height: 38px;
+  float: left;
+}
+main .mainbox .leftbody ul li a {
+  line-height: 38px;
+  color: #999;
+}
+main .mainbox .leftbody ul li a span {
+  color: red;
+  float: left;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  margin-top: 2px;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=productsList.css.map */

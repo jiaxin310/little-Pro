@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+header{
+  height: 150px;
+  max-height: 150px;
+  background-color: #151D20;
+  background: url(../img/products/header-bg.jpg);
+  background-repeat: repeat-x;
+    background-position: top center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    a{
+    width: 120px;
+    height: 30px;
+    top: 120px;
+    left: 655px;
+    border: none;
+    z-index: 10;
+    }
+}
+main{
+  background-color: #151D20;
+}
+main .mainbox{
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+  .maincontent-right{
+    width: 790px;
+    float: left;
+    min-height: 1px;
+    overflow: hidden;
+    .page{
+      margin-bottom: 10px;
+      font-weight: 700;
+      button{
+        color: #2953A6;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+        height: 50px;
+        margin-left: 20px;
+      }
+    }
+    
+    ul li{
+      margin-top: 20px;
+      width: 48%;
+      float: left;
+      background: #fff;
+      text-align: center;
+      margin:20px 1%;
+      p{
+        margin: 10px 0;
+      }
+      .pname{
+        width: 50%;
+        margin-left: calc(41% - 62.4px);
+      }
+      a{
+        color: #666;
+       
+      }
+      .price{
+        color: #c00;
+      }
+    }
+    ul{
+      overflow: hidden;
+    }
+  }
+  .maincontent-left{
+    width: 190px;
+    float: left;
+    .mtitle{
+      margin-left: 20px;
+       color: rgb(102, 102, 102);
+       font-size: 14px;
+       font-weight: bold;
+    }
+  }
+  .leftbody{
+    width: 190px;
+    ul li{
+      padding: 5px;
+      cursor: pointer;
+      border-bottom: 1px solid #DDD;
+      background: #FCFCF9;
+      overflow: hidden;
+      height: 38px;
+      float: left;
+      a{
+        line-height: 38px;
+        color: #999;
+        span{
+          color: red;
+          float: left;
+          width: 16px;
+          height: 16px;
+          overflow: hidden;
+          margin-top: 2px;
+          font-size: 0;
+          vertical-align: middle;
+        }
+      }
+    }
+    
+  }
+}

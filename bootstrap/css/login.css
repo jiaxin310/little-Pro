@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #b8b6b4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  color: #E9E9E9;
+  background-color: #212429;
+  background-position: -60vw 0;
+  background-repeat: no-repeat;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+}
+
+.head {
+  min-width: 940px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #171a21;
+}
+
+.head .content {
+  width: 940px;
+  height: 104px;
+  margin: 0px auto;
+  z-index: 402;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  padding-top: 25px;
+  margin-right: 40px;
+  width: 176px;
+  height: 44px;
+}
+
+.head .content ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.action-menu {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+  height: 21px;
+  line-height: 21px;
+  color: #b8b6b4;
+  font-size: 11px;
+  z-index: 401;
+}
+
+.action-menu a:nth-of-type(1) {
+  display: inline-block;
+  position: relative;
+  height: 21px;
+  padding-left: 35px;
+  padding-right: 9px;
+  line-height: 24px;
+  margin-right: 3px;
+  background-color: #5c7e10;
+  background-image: url(../img/login/btn_header_installsteam_download.png);
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+  background-position-x: 9px;
+  vertical-align: middle;
+  color: #e5e4dc;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+main .content {
+  padding: 50px;
+  min-height: 600px;
+  max-width: 700px;
+}
+
+.section_title {
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.formarea {
+  width: 292px;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #b8b6b4;
+}
+
+.formarea span {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.formarea input {
+  background: #32353C;
+  border-radius: 3px;
+  color: #E9E9E9;
+  padding: 8px 6px;
+  display: block;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  transition: border ease-in-out 0.5s;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+}
+
+.send {
+  width: 132px;
+  margin-top: 35px;
+  padding: 1px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #c3e1f8;
+  background: transparent;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.send input {
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 3px 50px;
+  background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-position: 25%;
+  background-size: 330% 100%;
+  border: none;
+  color: white;
+}
+
+.send input:hover {
+  text-decoration: none !important;
+  color: #fff;
+  background: transparent;
+  background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+}
+
+footer {
+  position: relative;
+  height: 330px;
+}
+
+footer .china_footer {
+  padding: 16px 16px 60px 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  background-color: #171a21;
+}
+
+.china_footer_content {
+  max-width: 894px;
+  margin: 0px auto;
+  padding-top: 16px;
+  color: #8F8E93;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+}
+
+.china_footer_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 894px;
+  height: 48.8px;
+}
+
+.china_footer_row a {
+  width: 142px;
+  height: 48.8px;
+}
+
+.china_footer_row .china_footer_navlinks {
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+.china_footer_logos img {
+  width: 96px;
+  vertical-align: top;
+}
+
+.chain_footer_valvelegal,
+.chain_footer_pwlegal {
+  font-size: 12px;
+}
+
+.confirm a:hover {
+  color: #47bfff !important;
+}
+
+
+/*# sourceMappingURL=login.css.map */
